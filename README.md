@@ -1,2 +1,2 @@
-# profile
+# Profile
 My Profile Website
