@@ -3,12 +3,154 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Profile</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo&family=Fredoka+One&family=Modak&family=MuseoModerno:wght@900&family=Open+Sans&family=Shadows+Into+Light&family=Ubuntu&display=swap"
+        rel="stylesheet">
+        <link rel="shortcut icon" type="image/png" href="images/logo.JPG">
+    <script src="https://kit.fontawesome.com/123aa91270.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Habibzad Portfolio Website</title>
 </head>
 <body>
-    <h1>Habibzad</h1>
-    <p>Hello! Welcome to my profile page!</p>
-    <p>I am still working on it</p>
+    <header>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item logo" id="logo"><a href="#" class="nav-link">M</a></li>
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        <!-- Home -->
+        <section class="home" id="home">
+            <h2 class="greeting">
+                Hi, I'm <strong>Masoud Habibzad</strong>
+            </h2>
+            <p class="intro">I'm a front-end developer in training, living in Maryland, United States.
+            </p>
+            <p class="para">I am learning web development at <a href="https://www.freecodecamp.org/">FreeCodeCamp</a>
+                mainly but I also use other online resources as needed.</p>
+            <p class="para">
+                In addition to learning web development, I read, swim, and hang out with my friends.
+            </p>
+        </section>
+
+        <!-- <skills> -->
+        <section class="about-me" id="skills">
+            <h2 class="section__title section__title--about">Technologies I am learning</h2>
+            <p class="section__subtitle section__subtitle--about">I have learned the following technologies and my goal
+                is
+                to improve them every day.</p>
+
+            <div class="skills">
+                <div class="skill">
+                    <div class="tech">
+                        <i class="fab fa-html5 fa-skills"></i>
+                    </div>
+                    <p class="tech-name">HTML</p>
+                </div>
+
+                <div class="skill">
+                    <div class="tech">
+                        <i class="fab fa-css3-alt fa-skills"></i>
+                    </div>
+                    <p class="tech-name">CSS</p>
+                </div>
+
+                <div class="skill">
+                    <div class="tech">
+                        <i class="fab fa-bootstrap fa-skills"></i>
+                    </div>
+                    <p class="tech-name">Bootstrap</p>
+                </div>
+
+                <div class="skill">
+                    <div class="tech">
+                        <i class="fab fa-wordpress fa-skills"></i>
+                    </div>
+                    <p class="tech-name">Wordpress</p>
+                </div>
+
+
+                <div class="skill">
+                    <div class="tech">
+                        <i class="fab fa-js-square fa-skills"></i>
+                    </div>
+                    <p class="tech-name">JavaScript</p>
+                </div>
+
+                <div class="skill">
+                    <div class="tech">
+                        <i class="fab fa-git-alt fa-skills"></i>
+                    </div>
+                    <p class="tech-name">Git</p>
+                </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="projects" id="projects">
+            <h2>My Projects</h2>
+            <p>Since I started learning web development, I have built a few small projects. Here are a few of my
+                projects that I completed as part of my course at FreeCodeCamp.</p>
+
+            <div class="portfolio">
+
+                <a href="portfolio-item.html" class="portfolio-item">
+                    <img src="images/portfolio-01.jpg" alt="" class="portfolio__img">
+                </a>
+
+
+                <a href="portfolio-item.html" class="portfolio-item">
+                    <img src="images/portfolio-02.jpg" alt="" class="portfolio__img">
+                </a>
+
+
+                <a href="portfolio-item.html" class="portfolio-item">
+                    <img src="images/portfolio-03.jpg" alt="" class="portfolio__img">
+                </a>
+
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer" id="contact">
+            <!-- replace with your own email address -->
+            <p class="social">You can reach me via <a href="mailto:masoud.habibzad@gmail.com">Email</a> or find me
+                on social networks:</p>
+            <ul class="social-list">
+
+                <li class="social-media-list-item">
+                    <a class="social-list__link" href="https://twitter.com/Masoud_Habibzad">
+                        <i class="fab fa-twitter"></i> Twitter
+                    </a>
+                </li>
+
+                <li class="social-media-list-item">
+                    <a class="social-list__link" href="https://codepen.io/masoud_habibzad">
+                        <i class="fab fa-codepen"></i> Codepen
+                    </a>
+                </li>
+
+                <li class="social-media-list-item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/masoud-habibzad-2832821ab/">
+                        <i class="fab fa-linkedin"></i> Linkedin
+                    </a>
+                </li>
+                <li class="social-media-list-item">
+                    <a class="social-list__link" href="https://github.com/Habibzad">
+                        <i class="fab fa-github"></i> Github
+                    </a>
+                </li>
+            </ul>
+
+            <p class="foot-note">Masoud Habibzad 2020</p>
+        </footer>
+    </div>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
