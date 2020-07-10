@@ -65,17 +65,15 @@ hr{
 
 
 .nav-item{
-    /* padding: 0.5rem 0; */
     font-weight: bold;
     display: inline-block;
     text-align: center;
-    margin: 0;
-    /* border-top: 1px solid rgba(0,0,0,0.2); */
 }
 
 .nav-item:hover,
 .nav-item:active{
-    background-color:  var(--link-bg);
+    color: var(--link-color);
+    /* background-color:  var(--link-bg); */
 }
 
 .logo{
@@ -85,7 +83,7 @@ hr{
     border-radius: 50%;
 }
 
-.logo a:hover{
+.logo:hover{
     background-color: var(--dark-color);
 }
 
@@ -179,7 +177,6 @@ p{
 .contact{
     border: 1px solid red;
 }
-
 
 input,
 textarea{
