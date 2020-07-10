@@ -93,7 +93,6 @@ hr{
 margin: 1rem 1rem ;
 padding: 0.5rem;
 border-radius: 5px;
-/* box-shadow: 0 0 5px 2px rgba(0,0,0,0.2); */
 }
 
 .greeting{
@@ -155,9 +154,10 @@ p{
 }
 
 .portfolio-item {
-    margin: 0.5rem;
+    margin-top: 1rem;
     background-color: var(--dark-color);
     overflow: hidden;
+    border: 1px solid rgba(0,0,0,0.2);
     border-radius: 5px;
 }
 
