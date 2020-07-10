@@ -58,24 +58,19 @@ hr{
 
 .nav{
     background-color: var(--light-color);
+    color: var(--link-color);
     border-bottom: 5px solid var(--link-color);
     box-shadow: 0 0 5px 2px rgba(0,0,0,0.2);
 }
 
-.nav-list{
-    /* display: flex;
-    list-style: none;
-    text-align: center;
-    width: 100%; */
-    margin-top: 1rem;
-}
 
 .nav-item{
-    padding: 0.5rem 0;
+    /* padding: 0.5rem 0; */
     font-weight: bold;
     display: inline-block;
     text-align: center;
-    border-top: 1px solid rgba(0,0,0,0.2);
+    margin: 0;
+    /* border-top: 1px solid rgba(0,0,0,0.2); */
 }
 
 .nav-item:hover,
