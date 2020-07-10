@@ -73,7 +73,6 @@ hr{
 .nav-item:hover,
 .nav-item:active{
     color: var(--link-color);
-    /* background-color:  var(--link-bg); */
 }
 
 .logo{
@@ -172,20 +171,7 @@ p{
     transform: scale(1.1);
     opacity: .7;
 }
-/* contact  */
 
-.contact{
-    border: 1px solid red;
-}
-
-input,
-textarea{
-    width: 100%;
-    display: block;
-    height: 1.5rem;
-    line-height: 1.5rem;
-    border: 1px solid green;
-}
 /* footer */
 
 .footer {
