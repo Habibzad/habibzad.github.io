@@ -9,7 +9,7 @@
     --light-gray: #e2e2e2;
     --light-color: #ffffff;
     --link-color: #d82e04;
-    --link-bg: #c9c9c9;
+    --link-bg: #fcfcfc;
 }
 
 html {
@@ -72,7 +72,7 @@ hr{
 
 .nav-item:hover,
 .nav-item:active{
-    color: var(--link-color);
+    /* color: var(--link-color); */
 }
 
 .logo{
@@ -83,7 +83,7 @@ hr{
 }
 
 .logo:hover{
-    background-color: var(--dark-color);
+    /* background-color: var(--dark-color); */
 }
 
 /* home  */
