@@ -3,30 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans&family=Ubuntu&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://kit.fontawesome.com/123aa91270.js"
-      crossorigin="anonymous"
-    ></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans&family=Ubuntu&display=swap"
+      rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/123aa91270.js" crossorigin="anonymous"></script>
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/responsive.css" />
     <link rel="shortcut icon" type="image/png" href="images/favIcon.png" />
-    <script
-      src="https://kit.fontawesome.com/123aa91270.js"
-      crossorigin="anonymous"
-    ></script>
     <title>Document</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="home">
       <nav class="navigation">
         <div class="nav-container">
           <div class="logo">
-            <a href="#" class="logo-link">Masoud</a>
+            <a href="https://habibzad.github.io/profile/" class="logo-link">Masoud</a>
           </div>
 
           <div class="menu-btn">
@@ -38,27 +29,29 @@
               <a class="nav-link" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#About">About</a>
+              <a class="nav-link" href="#about">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Projects">Projects</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Contact">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
       </nav>
     </header>
+
+    <!-- -----------Intro Section------------------ -->
     <section class="intro" id="intro">
       <div class="intro-container">
-        <h1 class="home-title">
+        <h1 class="intro-title">
           Hi, I'm <span class="myName">Ahmad Habibzad</span>
         </h1>
-        <p class="home-body">
+        <p class="intro-body">
           I'm a self-taught web developer based in Maryland, United States.
         </p>
-        <p class="home-body">
+        <p class="intro-body">
           I am passionate about coding and making pretty things on screen. In
           addition to web development, I love to read, swim, and spend time with
           my family.
@@ -75,13 +68,14 @@
 
     <!-- -----------Skills Section------------------ -->
 
-    <section class="skills" id="skills">
-      <div class="skills-container">
+    <section class="skills" id="about">
+      <div class="section-container skills-container">
+        <p class="section-para-title">SKILLS & TOOLS</p>
         <h2 class="skills-title">Technologies I work with</h2>
         <p class="skills-body">
           I have been learning and working with the following technologies.
         </p>
-        <div class="tech-list">
+        <div class="skills-list">
           <div class="skill">
             <div class="tech">
               <i class="fab fa-html5 fa-skills"></i>
@@ -167,11 +161,15 @@
         </div>
       </div>
     </section>
-    <section class="projects">
-      <div class="projects-container">
+
+    <!-- -----------Projects Section------------------ -->
+    <section class="projects" id="projects">
+      <div class="section-container projects-container">
+        <p class="section-para-title work">WORK</p>
+        <h2 class="projects-title">A Selection Of My Work</h2>
         <div class="project rps-game">
           <div class="text-content">
-            <h2 class="project-title">Some Title</h2>
+            <h2 class="project-title">Rocl Scissor Paper Game</h2>
             <p class="project-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -189,7 +187,7 @@
         </div>
         <div class="project converter">
           <div class="text-content text-reverse">
-            <h2 class="project-title">Some Title</h2>
+            <h2 class="project-title">Temprature Converter</h2>
             <p class="project-description">
               Lorem ipsum dolor sit amet, do eiusmod tempor incididunt ut labore
               et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -207,7 +205,7 @@
         </div>
         <div class="project tribute-page">
           <div class="text-content">
-            <h2 class="project-title">Some Title</h2>
+            <h2 class="project-title">Technical Documentation Page</h2>
             <p class="project-description">
               Lorem ipsum dolor sit amet, smod tempor incididunt ut labore et
               dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -225,7 +223,7 @@
         </div>
         <div class="project documentation">
           <div class="text-content text-reverse">
-            <h2 class="project-title">Some Title</h2>
+            <h2 class="project-title">HTML Email</h2>
             <p class="project-description">
               Lorem ipsum dolor, sed do eiusmod tempor incididunt ut labore et
               dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -243,31 +241,37 @@
         </div>
       </div>
     </section>
+
+    <!-- -----------Contact Form------------------ -->
     <section class="contact">
       <div class="form-container">
-        <form id="contact" action="https://formspree.io/f/xyybjzlg" method="post">
-          <h3 >Contact Form</h3>
-          <p id="para">If you wanna get in touch, hire me or just say hi, just fill out the form and will try to get back to you as soon as I can.</p>
-    
+        <h3 class="contact-title">Contact Form</h3>
+        <p class="contact-para">If you wanna get in touch, hire me or just say hi, just fill out the form and will try to get back to you as soon as I can.</p>
+        <form action="https://formspree.io/f/xyybjzlg" method="post">
           <fieldset>
-            <label for="_name"></label>
-            <input type="text" tabindex="1"name="_name" placeholder="Your name"  required autofocus>
+            <label for="name" id="name-label">
+              <p class="input-para">Name:</p>
+            </label>
+            <input class="inputs" type="text" id="name" placeholder="Enter your name here..." required>
           </fieldset>
           <fieldset>
-            <label for="_email"></label>
-            <input type="email"placeholder="Your Email Address"name="_email"  tabindex="2" required>
+            <label for="email" id="email-label">
+              <p class="input-para">Email: </p>
+            </label>
+            <input class="inputs" type="email" id="email" placeholder="Enter your email here..." required>
           </fieldset>
-    
           <fieldset>
-            <textarea name="message" tabindex="3" placeholder="Type your message here...." required></textarea>
-          </fieldset>
-    
-          <fieldset>
-            <input name="submit" type="submit" id="submit" data-submit="...Sending"></input>
+            <p class="input-para">Message</p>
+            <textarea name="comments" id="" cols="30" rows="10" placeholder="Enter your name here...">
+            </textarea>
+            <br>
+            <input type="submit" id="submit" value="Submit">
           </fieldset>
         </form>
       </div>
     </section>
+
+    <!-- -----------Footer------------------ -->
     <footer>
       <div class="foot-notes">
         <p class="footer-para">

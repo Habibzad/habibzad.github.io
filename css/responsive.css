@@ -1,39 +1,29 @@
 :root {
-  --fs-title: 4rem;
-  --sub-title: 2.4rem;
-  --h3: 2rem;
-  --body-size: 1.1rem;
+  --ff-body-font: 'Ubuntu', sans-serif;
+  --ff-logo-font: 'Kaushan Script', cursive;
+
+  --fc-light-color: #fefefe;
+  --fc-dark-blue:#1a3246;
+  --fc-light-blue: #A8D0E6;
+  --fc-redish: #F76C6C;
+  --fc-accent-color: #ffe600;
+  --fc-accent-hover:#e4cf19;
+  --fs-title: 2rem;
+
+  --fs-sub-title: 2.2rem;
+  --fs-section-title: 1.8rem;
+  --fs-body-size: 1.5rem;    
 }
 
-@media screen and (max-width: 840px) {
-  .wrapper {
-    padding: 0 0.5rem;
-  }
-
-  @media screen and (min-width: 600px) {
-    .logo{
-      padding-left: 1rem;
-   }
-
-   .intro{
-    padding: 2rem 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-}
-.home-title{
-  font-size: 2.3rem;
-}
-}
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .navigation-container {
     flex-direction: column;
   }
 
   .logo{
    padding-left: 1rem;
-}
+  }
+
   .menu-btn {
     width: 50px;
     height: 50px;
@@ -53,7 +43,7 @@
     width: 35px;
     height: 3px;
     display: block;
-    background-color: var(--accent-color);
+    background-color: var(--fc-accent-color);
     transition: all 0.5s ease-in-out;
   }
 
@@ -64,15 +54,15 @@
     position: absolute;
     width: 35px;
     height: 3px;
-    background-color: var(--accent-color);
+    background-color: var(--fc-accent-color);
     transition: all 0.5s ease-in-out;
   }
 
   .menu-btn-line::before {
-    transform: translateY(-14px);
+    transform: translateY(-11px);
   }
   .menu-btn-line::after {
-    transform: translateY(14px);
+    transform: translateY(11px);
   }
 
   .menu-btn.open .menu-btn-line {
@@ -94,27 +84,33 @@
     justify-content: space-evenly;
     height: 100vh;
     width: 100%;
-    background-color: var(--dark-color);
-    color: var(--light-color);
+    background-color: var(--fc-dark-blue);
+    color: var(--fc-light-color);
     position: absolute;
     top: 0;
     left: 0;
     z-index: 1;
-    transition: all 0.5s ease-in-out;
-    transform: translateX(100%);
+    transition: 0.5s ease-in-out;
+    transform: translateY(-100%);
   }
 
   .nav-link {
-    color: var(--light-color);
-    font-size: var(--h3);
+    color: var(---c-light-color);
+    font-size: var(--fs-sub-title);
     line-height: 3rem;
   }
 
   .nav-open {
-    transform: translateX(0);
-    transition: all 0.5s ease-in-out;
+    transform: translateY(0);
+    transition: 0.5s ease-in-out;
   }
 
+/*-------------- intro--------------- */
+
+  .intro-title{
+  font-size: var(--fs-title);
+  }
+  
   .intro{
     padding: 3rem 1rem;
     display: flex;
@@ -123,53 +119,87 @@
     height: auto;
 }
 
-.home-body{
-  font-size: 1rem;
+  .home-body{
+  font-size: var(--fs-body-size);
   line-height: 1.5;
   margin: 0;
   padding-top: 1rem;
   }
 
-.home-title{
-  font-size: 2rem;
+.intro-title{
+  font-size: var(--fs-title);
 }
 
-.home-body{
-  font-size: 1.5rem;
+.myName{
+  font-size: 2.5rem;
+}
+
+.intro-body{
+  font-size: var(--fs-body-size);
+  line-height: 2.5rem;
 }
 .fa-star{
   font-size: 1rem;
 }
 
 
-.skills-title{
-  font-size: 1.8rem;
-  color: #1e3d59;
-  padding: 1rem;
+/* -------------end intro------------------ */
+
+.section-para-title{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 01.5rem;
 }
+
+.skills-title{
+  font-size: 1.5rem;
+  padding: 0 1.5rem;
+}
+
 
 .skills-body{
   margin: 0;
   font-size: 1.2rem;
-  color: #1e3d59;
-  padding: 0 1rem;
-
+  padding: 1rem 1.5rem;
 }
+
+/* -------------projects------------------ */
   .project{
-    margin: 0;
     flex-direction: column;
     align-items: center;
+    margin: 0;
+    padding: 1rem;
   }
 
-.text-content{
-  max-width: 100%;
-  padding: 1.5rem;
-}
+  .projects-title{
+    padding: 0 2.5rem;
+    /* font-size: 1.8rem; */
+  }
 
-.project-img-container{
+  .work{
+    padding-left: 2.5rem;
+  }
+
+  .text-content{
+  max-width: 100%;
+  padding: 0 1.5rem;
+  }
+
+  .project-img-container{
   align-items: center;
   justify-content: flex-end;
-  margin: 0;
-  padding: 0;
+  }
+
+  .project-description{
+    font-size: 1.2rem;
+  }
+
+
+  .contact-title{
+    padding-top: 1.5rem;
+  }
+  .form-container {
+    padding: 0.5rem;
+  }
+
+
 }
-}}
