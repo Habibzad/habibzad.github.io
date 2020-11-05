@@ -1,4 +1,4 @@
 # Profile
 My Profile Website
 ## Sub Title
-I am going to post my profile page here.
+I have made this profile website as part of my front-end learning journey. 
