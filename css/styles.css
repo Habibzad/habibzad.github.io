@@ -285,7 +285,7 @@ margin: 2rem 0;
 }
 .project-img-container{
     display: flex;
-    width: 380px;
+    max-width: 380px;
     height: 260px;
     align-items: center;
     justify-content: flex-end;
@@ -302,12 +302,12 @@ margin: 2rem 0;
 .project-btn {
     background-color: var(--fc-dark-blue);
     color: var(--fc-light-gray);
-    padding: 0.6rem;
+    padding: 0.6rem 1.5rem;
     text-decoration: none;
     display: inline-block;
     text-align: center;
     display: inline-block;
-    min-width: 150px;
+    min-width: 120px;
 }
 
 .project-btn:hover {
