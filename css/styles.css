@@ -5,19 +5,19 @@
 }
 
 *::selection{
-  background-color:  #ffe600;
+  background-color:  #4DA8DA;
 }
 
 :root {
     --ff-body-font: 'Ubuntu', sans-serif;
     --ff-logo-font: 'Kaushan Script', cursive;
 
-    --fc-light-color: #fefefe;
-    --fc-dark-blue:#1a3246;
+    --fc-light: #EEFBFB;
+    --fc-dark-blue:#2d545e;
     --fc-light-gray: #f3f3f3;
-    --fc-redish: #F76C6C;
-    --fc-accent-color: #ffe600;
-    --fc-accent-hover:#e4cf19;
+    --fc-bluesh: #4DA8DA;
+    --fc-accent-color: #007CC7;
+    --color-sand-tan: #e1b382;
 
     --fs-title: 2rem;
     --fs-sub-title: 1.6rem;
@@ -30,13 +30,11 @@ html {
 }
 
 body{
-border-top: 3px solid var(--fc-accent-color);
 font-family: var(--ff-body-font);
 }
 
-.header,
-.intro{
-    background-color: var(--fc-dark-blue);
+.header{
+  background-color: var(--fc-dark-blue);
 }
 .navigation{
     display: flex;
@@ -62,14 +60,12 @@ font-family: var(--ff-body-font);
 
 .logo a{
     font-family: var(--ff-logo-font);
-    color: var(--fc-accent-color);
+    color: var(--fc-light);
     font-weight: 800;
-    font-size: var(--fs-section-title);
+    font-size: var(--fs-title);
     text-decoration: none;
     padding: 0 1rem 0 0;
 }
-
-
 
 .nav-list{
     list-style: none;
@@ -89,8 +85,9 @@ font-family: var(--ff-body-font);
     text-decoration: none;
     display: inline-block;
     font-size: var(--fs-nav);
+    font-weight: 600;
     line-height: 2rem;
-    color: var(--fc-light-color);
+    color: var(--fc-light);
 }
 .nav-link::after{
     content: '';
@@ -122,44 +119,28 @@ font-family: var(--ff-body-font);
 
 .intro-container{
     max-width: 800px;
-    color: var(--fc-light-color);
+    color: var(--fc-dark-blue);
 }
 
 .intro-title{
-    font-size: var(--fs-title);
+    font-size: var(--fs-section-title);
 }
 
 .myName{
     display: block;
     padding: 1.5rem 0;
-    font-size: 3rem;
 }
 
 .intro-body{
-font-size: 1.8rem;
+font-size: 1.5rem;
 line-height: 1.8;
 margin: 2rem 0;
 }
 
-.star{
-    margin-top: 3rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.fa-star{
-    font-size: 1.5rem;
-    color: var(--fc-accent-color);
-    padding: 0.5rem;
-}
-
-
 /*--------- Skills----------*/
 
-
 .skills{
-  background-color: var(--light-blue);
+  background-color: var(--color-sand-tan);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -179,7 +160,7 @@ margin: 2rem 0;
   font-size: 1.2rem;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 500;
-  color: var(--redish);
+  color: var(--fc-light);
   padding: 1rem 0;
   display: block;
   align-self: start;
@@ -281,6 +262,7 @@ margin: 2rem 0;
 }
 .work{
   padding-left: 1rem;
+  color: var(--fc-dark-blue);
 }
 .converter,
 .documentation{
@@ -318,8 +300,8 @@ margin: 2rem 0;
     height: 90%;
 }
 .project-btn {
-    background-color: var(--fc-redish);
-    color: var(--fc-light-color);
+    background-color: var(--fc-dark-blue);
+    color: var(--fc-light-gray);
     padding: 0.6rem;
     text-decoration: none;
     display: inline-block;
@@ -329,13 +311,15 @@ margin: 2rem 0;
 }
 
 .project-btn:hover {
-  background-color: #ff7e7e;
+  background-color: var(--color-sand-tan);
+  transition: 0.5s ease-in-out;
 }
 
 /* contact form */
 .contact{
     background-color:var(--fc-light-gray);
     height: auto;
+    padding: 1rem;
 }
 .form-container {
     max-width: 800px;
@@ -358,11 +342,12 @@ margin: 2rem 0;
   
   .contact-para {
     padding: 1.3rem 0;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
   
   .input-para{
     padding-bottom: 0.5rem;
+    font-size: 1.2rem;
   }
   
   fieldset {
@@ -376,6 +361,7 @@ margin: 2rem 0;
   input[type="text"],
   input[type="email"],
   textarea {
+    font-size: 1rem;
     height: 2.8rem;
     width: 100%;
     border: none;
@@ -388,7 +374,7 @@ margin: 2rem 0;
   input[type="text"]:hover,
   input[type="email"]:hover,
   textarea:hover {
-    border-bottom: 2px solid var(--fc-redish);  
+    border-bottom: 2px solid var(--color-sand-tan);  
   }
   
   textarea {
@@ -401,15 +387,18 @@ margin: 2rem 0;
     cursor: pointer;
     width: 100%;
     border: none;
-    background: var(--fc-redish);
-    color: var(--fc-light-color);
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    background: var(--fc-dark-blue);
+    color: var(--fc-light-gray);
     margin-top: 0.3rem;
     padding: 0.5rem 0;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   
   input[type="submit"]:hover {
-    background: #365269;
+    background: #3e5466;
     -webkit-transition: background 0.1s ease-in-out;
     -moz-transition: background 0.1s ease-in-out;
     transition: background-color 0.1s ease-in-out;
@@ -426,19 +415,19 @@ margin: 2rem 0;
   }
   
   ::-webkit-input-placeholder {
-    color: #888;
+    color: #666666;
   }
   
   :-moz-placeholder {
-    color: #888;
+    color: #666666;
   }
   
   ::-moz-placeholder {
-    color: #888;
+    color: #666666;
   }
   
   :-ms-input-placeholder {
-    color: #888;
+    color: #666666;
   }
 /*-------Footer---------------*/
   footer{
@@ -455,8 +444,8 @@ margin: 2rem 0;
   }
   .footer-para,
   .mail{
-      color: var(--fc-light-color);
-      font-size: 1.2rem;
+      color: var(--fc-light);
+      font-size: 1rem;
   }
 
   .social-media-list {
@@ -466,14 +455,17 @@ margin: 2rem 0;
   }
 
   .social-media-list-item {
-    font-size: 1em;
+    font-size: 1rem;
   }
 
   .social-link {
-    color: var(--fc-light-color);
-    font-size: 1.5rem;
+    color: var(--fc-light);
+    font-size: 1.8rem;
     padding: 1rem;
     margin: 0.3rem;
+  }
+  .social-link:visited {
+    color: rgb(228, 228, 228);
   }
 
   .social-link:hover {
@@ -481,7 +473,7 @@ margin: 2rem 0;
   }
 
   .copy{
-    color: var(--fc-light-color);
+    color: var(--fc-light-gray);
     font-size: 0.8rem;
     margin-top: 3rem;
   }

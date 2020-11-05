@@ -2,17 +2,16 @@
   --ff-body-font: 'Ubuntu', sans-serif;
   --ff-logo-font: 'Kaushan Script', cursive;
 
-  --fc-light-color: #fefefe;
-  --fc-dark-blue:#1a3246;
-  --fc-light-blue: #A8D0E6;
-  --fc-redish: #F76C6C;
-  --fc-accent-color: #ffe600;
-  --fc-accent-hover:#e4cf19;
+    --fc-light: #EEFBFB;
+    --fc-dark-blue:#12232E;
+    --fc-light-gray: #f3f3f3;
+    --fc-bluesh: #4DA8DA;
+    --fc-accent-color: #007CC7;
+  
   --fs-title: 2rem;
-
-  --fs-sub-title: 2.2rem;
-  --fs-section-title: 1.8rem;
-  --fs-body-size: 1.5rem;    
+  --fs-sub-title: 1.8rem;
+  --fs-section-title: 1.4rem;
+  --fs-body-size: 1.2rem;    
 }
 
 @media screen and (max-width: 800px) {
@@ -43,7 +42,7 @@
     width: 35px;
     height: 3px;
     display: block;
-    background-color: var(--fc-accent-color);
+    background-color: var(--fc-light);
     transition: all 0.5s ease-in-out;
   }
 
@@ -54,7 +53,7 @@
     position: absolute;
     width: 35px;
     height: 3px;
-    background-color: var(--fc-accent-color);
+    background-color: var(--fc-light);
     transition: all 0.5s ease-in-out;
   }
 
@@ -85,7 +84,7 @@
     height: 100vh;
     width: 100%;
     background-color: var(--fc-dark-blue);
-    color: var(--fc-light-color);
+    color: var(--fc-light);
     position: absolute;
     top: 0;
     left: 0;
@@ -95,8 +94,8 @@
   }
 
   .nav-link {
-    color: var(---c-light-color);
-    font-size: var(--fs-sub-title);
+    color: var(--fc-light-gray);
+    font-size: var(--fs-section-title);
     line-height: 3rem;
   }
 
@@ -106,10 +105,6 @@
   }
 
 /*-------------- intro--------------- */
-
-  .intro-title{
-  font-size: var(--fs-title);
-  }
   
   .intro{
     padding: 3rem 1rem;
@@ -119,19 +114,21 @@
     height: auto;
 }
 
-  .home-body{
+
+.intro-title{
+  font-size: 1rem;
+  padding: 0 1rem;
+  }
+
+  .intro-body{
   font-size: var(--fs-body-size);
   line-height: 1.5;
   margin: 0;
-  padding-top: 1rem;
+  padding: 0.2rem 1rem;
   }
 
 .intro-title{
   font-size: var(--fs-title);
-}
-
-.myName{
-  font-size: 2.5rem;
 }
 
 .intro-body{
