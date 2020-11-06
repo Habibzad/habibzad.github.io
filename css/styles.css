@@ -169,7 +169,6 @@ margin: 2rem 0;
 .skills-title,
 .projects-title{
     font-size: 1.6rem;
-    color: var(--fc-redish);
     padding: 2rem 0 0 0;
 }
 .skills-list{
@@ -270,12 +269,7 @@ margin: 2rem 0;
 }
 .text-content{
     max-width: 50%;
-    padding-right: 1.5rem;
-}
-
-.text-reverse{
-    padding-right: 0;
-    padding-left: 1.5rem;
+    padding-bottom: 1rem;
 }
 
 .project-description{
@@ -319,7 +313,7 @@ margin: 2rem 0;
 .contact{
     background-color:var(--fc-light-gray);
     height: auto;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 .form-container {
     max-width: 800px;
@@ -331,18 +325,17 @@ margin: 2rem 0;
 
   .contact-title{
     font-size: 1.5rem;
-    color: var(--fc-redish);
   }
 
-  .input-para,
+  /* .input-para,
   .contact-para
   {
     font-family: serif;
-  }
+  } */
   
   .contact-para {
     padding: 1.3rem 0;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
   
   .input-para{
@@ -436,16 +429,7 @@ margin: 2rem 0;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: 1rem ;
-  }
-
-  .foot-notes{
-    padding: 1.5rem;
-  }
-  .footer-para,
-  .mail{
-      color: var(--fc-light);
-      font-size: 1rem;
+      padding: 4rem 1rem;
   }
 
   .social-media-list {

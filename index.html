@@ -245,17 +245,17 @@
             <label for="name" id="name-label">
               <p class="input-para">Name:</p>
             </label>
-            <input class="inputs" type="text" id="name" placeholder="Enter your name here..." required>
+            <input class="inputs" type="text" name="name" id="name" placeholder="Enter your name here..." required>
           </fieldset>
           <fieldset>
             <label for="email" id="email-label">
               <p class="input-para">Email: </p>
             </label>
-            <input class="inputs" type="email" id="email" placeholder="Enter your email here..." required>
+            <input class="inputs" type="email" name="email" id="email" placeholder="Enter your email here..." required>
           </fieldset>
           <fieldset>
             <p class="input-para">Message</p>
-            <textarea name="comments" id="" cols="30" rows="10" placeholder="Enter your name here...">
+            <textarea placeholder="Enter your name here..." name="comments" id="" cols="30" rows="10" >
             </textarea>
             <br>
             <input type="submit" id="submit" value="Submit">
@@ -266,16 +266,14 @@
 
     <!-- -----------Footer------------------ -->
     <footer>
-      <div class="foot-notes">
-        <p class="footer-para">
-          Send me an email at:
-          <a href="mailto:masoud.habibzad@gmail.com" class="mail"
-            >masoud.habibzad@gmail.com</a
-          >
-        </p>
-      </div>
       <div class="social-media">
         <ul class="social-media-list">
+          <li class="social-media-list-item">
+            <a class="social-link" href="mailto:masoud.habibzad@gmail.com">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </li>
+
           <li class="social-media-list-item">
             <a class="social-link" href="https://twitter.com/Masoud_Habibzad">
               <i class="fab fa-twitter"></i>
