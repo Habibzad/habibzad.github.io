@@ -321,7 +321,7 @@ color: var(--fc-light);
 .contact{
   background-color:var(--fc-light-gray);
   height: auto;
-  padding: 0.5rem;
+  padding: 0.5rem 0.5rem 3rem;
 }
 .form-container {
   max-width: 800px;
@@ -334,12 +334,6 @@ color: var(--fc-light);
 .contact-title{
   font-size: 1.5rem;
 }
-
-/* .input-para,
-.contact-para
-{
-  font-family: serif;
-} */
 
 .contact-para {
   padding: 1.3rem 0;
@@ -437,7 +431,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 4rem 1rem;
+    padding: 4rem 0 1rem 0;
 }
 
 .social-media-list {
@@ -451,9 +445,11 @@ footer{
 }
 
 .social-link {
+  border: 3px solid white;
+  border-radius: 50%;
   color: var(--fc-light);
-  font-size: 1.8rem;
-  padding: 1rem;
+  font-size: 1.4rem;
+  padding: 0.5rem 0.7rem;
   margin: 0.3rem;
 }
 .social-link:visited {
@@ -461,7 +457,9 @@ footer{
 }
 
 .social-link:hover {
-  color: var(--fc-accent-color);
+  border: 3px solid var(--fc-light);
+  background-color: var(--fc-light);
+  color: var(--fc-dark-blue);
 }
 
 .copy{
