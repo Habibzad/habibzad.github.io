@@ -17,9 +17,9 @@ background-color:  #4DA8DA;
   --fc-light-gray: #f3f3f3;
   --fc-bluesh: #4DA8DA;
   --fc-accent-color: #007CC7;
-  --color-sand-tan: #e1b382;
+  --color-sand-tan: #F2C76E;
 
-  --fs-title: 2rem;
+  --fs-title: 3rem;
   --fs-sub-title: 1.6rem;
   --fs-section-title: 1.3rem;
   --fs-body-size: 1rem;    
@@ -92,7 +92,7 @@ background-color: #2d545e;
 .nav-link::after{
   content: '';
   display: block;
-  background-color: var(--fc-accent-color);
+  background-color: var(--color-sand-tan);
   transition: .3s linear;
   height: 3px;
   width: 0;
@@ -125,7 +125,7 @@ background-color: #2d545e;
 }
 
 .intro-title{
-  font-size: var(--fs-section-title);
+  font-size: 3rem;
   color: var(--fc-light);
 }
 
@@ -388,9 +388,9 @@ input[type="submit"] {
   cursor: pointer;
   width: 100%;
   border: none;
-  -webkit-border-radius: 6;
-  -moz-border-radius: 6;
-  border-radius: 6px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
   background: var(--fc-dark-blue);
   color: var(--fc-light-gray);
   margin-top: 0.3rem;
@@ -399,7 +399,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background: #3e5466;
+  background: #396975;
   -webkit-transition: background 0.1s ease-in-out;
   -moz-transition: background 0.1s ease-in-out;
   transition: background-color 0.1s ease-in-out;
