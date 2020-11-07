@@ -382,11 +382,8 @@ input[type="submit"] {
   cursor: pointer;
   width: 100%;
   border: none;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
   background: var(--fc-dark-blue);
-  color: var(--fc-light-gray);
+  color: var(--fc-light);
   margin-top: 0.3rem;
   padding: 0.5rem 0;
   font-size: 1.1rem;
@@ -442,14 +439,15 @@ footer{
 
 .social-media-list-item {
   font-size: 1rem;
+  margin: 0.3rem;
 }
 
 .social-link {
-  border: 3px solid white;
+  border: 2px solid white;
   border-radius: 50%;
   color: var(--fc-light);
   font-size: 1.4rem;
-  padding: 0.5rem 0.7rem;
+  padding: 0.4rem 0.55rem;
   margin: 0.3rem;
 }
 .social-link:visited {
@@ -457,7 +455,7 @@ footer{
 }
 
 .social-link:hover {
-  border: 3px solid var(--fc-light);
+  border: 2px solid var(--fc-light);
   background-color: var(--fc-light);
   color: var(--fc-dark-blue);
 }
