@@ -27,12 +27,12 @@ $.getScript("https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles
             }
           },
           "opacity": {
-            "value": 0.1,
+            "value": 0.05,
             "random": false,
             "anim": {
               "enable": false,
               "speed": 1,
-              "opacity_min": 0.1,
+              "opacity_min": 0.02,
               "sync": false
             }
           },
@@ -41,7 +41,7 @@ $.getScript("https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles
             "random": true,
             "anim": {
               "enable": false,
-              "speed": 10,
+              "speed": 2,
               "size_min": 0.1,
               "sync": false
             }
@@ -50,7 +50,7 @@ $.getScript("https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles
             "enable": true,
             "distance": 70,
             "color": "#ffffff",
-            "opacity": 0.4,
+            "opacity": 0.2,
             "width": 1
           },
           "move": {
