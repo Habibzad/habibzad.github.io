@@ -34,9 +34,16 @@ font-family: var(--ff-body-font);
 }
 
 .header{
-background-color: #2d545e;  
+  background-color: #2d545e; 
+  width: 100%;
+  position: fixed;
+  z-index: 99999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .navigation{
+  height: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,17 +51,17 @@ background-color: #2d545e;
 
 .nav-container{
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
-  height: 4rem;
-  position: relative;
+  /* height: 4rem; */
+  /* position: relative; */
   width: 800px;
 }
 
 .logo{
   height: 100%;
-  display: flex;
-  margin-right: auto;
+  display: inline-flex;
+  /* margin-right: auto; */
   align-items: center;
 }
 
