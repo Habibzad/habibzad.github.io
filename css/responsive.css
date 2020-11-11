@@ -15,7 +15,15 @@
 }
 
 @media screen and (max-width: 800px) {
-
+  .header{
+    background-color: #2d545e; 
+    width: 100%;
+    position: fixed;
+    z-index: 99999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .navigation{
     width: 100%;
   }
