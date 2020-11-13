@@ -32,7 +32,7 @@ font-family: var(--ff-body-font);
 }
 
 .header{
-  background-color: #2d545e;
+  background-color: #075150;
   width: 100%;
   position: fixed;
   z-index: 99999;
@@ -65,8 +65,8 @@ font-family: var(--ff-body-font);
 }
 
 .logo a{
-  font-family: 'Exo';
-  color: var(--fc-light);
+  font-family: 'Big Shoulders Stencil Text', cursive;
+  color: var(--color-sand-tan);
   font-weight: 800;
   font-size: var(--fs-title);
   text-decoration: none;
@@ -182,7 +182,7 @@ color: var(--fc-light);
 .content__container:after, .content__container:before {
   position: absolute;
   top: 0;
-  color: #e4d505;
+  color: var(--color-sand-tan);
   font-size: 42px;
   line-height: 40px;
 }
