@@ -189,41 +189,5 @@
   padding: 1rem 1rem;
 }
 
-/* -------------projects------------------ */
-  .project{
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .projects-title{
-    padding: 0 1rem;
-  }
-
-  .text-content{
-  max-width: 100%;
-  text-align: justify;
-  }
-
-  .project-img-container{
-  align-items: center;
-  justify-content: flex-end;
-  }
-
-  .project-description{
-    font-size: 1.2rem;
-  }
-
-  .project-btn{
-    min-width: 80px;
-    margin-right: 0;
-  }
-
-  .contact-title{
-    padding-top: 1.5rem;
-  }
-  .form-container {
-    padding: 0.5rem;
-  }
-
 
 }
