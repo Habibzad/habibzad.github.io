@@ -1,13 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text&family=Roboto:wght@100;300;400&display=swap');
 :root {
-  --body-font: 'Ubuntu', sans-serif;
+  --body-font: 'Roboto', sans-serif;
   --logo-font: "Big Shoulders Stencil Text", cursive;
 
-  --main-light: #faf9f3;
-  --main-dark: #075150;
-  --accent: #f2c76e;
-  --cream: #faf2df;
+  --main-light: #ececec;
+  --main-dark: #06060c;
+  --accent: #9DD9DE;
+  --cream: #9ABFC2;
   --font-color-dark: #41413d;
-  --tomato: #fb8152;
 
   --h1: 2.5rem;
   --h2: 2rem;
@@ -27,8 +27,6 @@ html {
 
 body {
   font-family: var(--body-font);
-  font-size: 1rem;
-  /* background: linear-gradient(#f3f3f3, #333333); */
 }
 
 a {
@@ -37,15 +35,16 @@ a {
 
 header {
   background-color: var(--main-dark);
+  padding: 0 0.5rem;
   width: 100%;
   position: fixed;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   z-index: 100;
 }
 
 .header {
-  width: 900px;
+  width: 100%;
 }
 
 .navigation {
@@ -53,14 +52,13 @@ header {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding: 0.5rem;
 }
 
 .logo a {
   font-family: var(--logo-font), cursive;
   color: var(--accent);
   font-weight: 900;
-  font-size: var(--h2);
+  font-size: var(--h1);
 }
 
 .menu-btn {
@@ -126,7 +124,6 @@ header {
   justify-content: space-evenly;
   height: 50vh;
   width: 100%;
-  background-color: var(--main-dark);
   color: var(--main-light);
   position: absolute;
   top: 0;
@@ -138,7 +135,7 @@ header {
 
 .nav-link {
   color: var(--main-light);
-  font-size: var(--h3);
+  font-size: var(--h4);
   position: relative;
   width: auto;
   padding: 0 0.1rem;
@@ -174,7 +171,10 @@ header {
 /* landing section */
 
 .landing {
-  /* background-color: var(--main-light); */
+  background-image: url('/images/bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   height: 100vh;
   padding-top: 6rem;
   display: flex;
@@ -182,191 +182,35 @@ header {
 }
 
 .landing-container {
-  width: 900px;
   padding: 0.5rem;
-  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .intro-title{
-    font-family: 'Exo', sans-serif;
-    font-size: var(--h4);
-    font-weight: 600;
-    padding-bottom: 2rem;
+    font-size: var(--h1);
+    color: var(--main-light);
+    margin: 1.5rem 0;
+    font-weight: 100;
+
 }
 
 .intro-body{
-    font-family: 'Exo', sans-serif;
-    font-size: 1.3rem;
-    font-weight: 300;
+  font-weight: 100;
+
+    color: var(--main-light);
+    font-size: var(--h4);
     line-height: 2;
-    margin-bottom: 2rem;
+    margin: 1.5rem 0;
+}
+.name{
+  display: block;
+  line-height: 2;
 }
 
 .web-dev{
-    font-weight: 900;
+  font-weight: 400;
 }
-
-.photo{
-    margin: 0 auto;
-    width: 60%;
-    border: 5px solid var(--accent);
-    background-color: var(--accent);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3), 0 5px 5px 0 rgba(0, 0, 0, 0.1);
-    transform: rotate(10deg);
-}
-
-.my-photo{
-    margin: 2rem 0 0;
-    width: 100%;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.1);
-    /* border-radius: 50%; */
-    /* border: 5px solid var(--font-color-dark); */
-}
-
-/* likes */
-
-.content {
-    position: absolute;
-    top: 75vh;
-    height: 160px;
-    overflow: hidden;
-    font-family: 'Exo', sans-serif;
-    font-size: 24px;
-    line-height: 40px;
-    color: var(--font-color-dark);
-  }
-  
-  .content__container {
-    font-weight: 900;
-    overflow: hidden;
-    height: 40px;
-    padding: 0 20px;
-  }
-  
-  .content__container:before {
-    content: '[';
-    left: 0;
-  }
-  
-  .content__container:after {
-    content: ']';
-    position: absolute;
-    right: 0;
-  }
-  
-  .content__container:after, .content__container:before {
-    position: absolute;
-    top: 0;
-    color: var(--accent);
-    font-size: 28px;
-    line-height: 40px;
-    font-family: sans-serif;
-    font-weight: 600;
-  }
-  
-  .iconify{
-    height: 80%;
-  }
-  
-  .content__container__text {
-    display: inline;
-    float: left;
-    margin: 0;
-  }
-  
-  .content__container__list {
-    margin-top: 0;
-    padding-left: 60px;
-    text-align: left;
-    list-style: none;
-    -webkit-animation-name: change;
-    -webkit-animation-duration: 10s;
-    -webkit-animation-iteration-count: infinite;
-    animation-name: change;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-  }
-  
-  .content__container__list__item {
-    line-height: 41px;
-    margin: 0;
-  }
-  @-webkit-keyframes opacity {
-    0%, 100% {
-      opacity: 0;
-    }
-    50% {
-      opacity: 1;
-    }
-  }
-  
-  @-webkit-keyframes change {
-    0%, 12.66%, 100% {
-      -webkit-transform: translate3d(0, 0, 0);
-              transform: translate3d(0, 0, 0);
-    }
-    16.66%, 29.32% {
-      -webkit-transform: translate3d(0, -25%, 0);
-              transform: translate3d(0, -25%, 0);
-    }
-    33.32%, 45.98% {
-      -webkit-transform: translate3d(0, -50%, 0);
-              transform: translate3d(0, -50%, 0);
-    }
-    49.98%, 62.64% {
-      -webkit-transform: translate3d(0, -75%, 0);
-              transform: translate3d(0, -75%, 0);
-    }
-    66.64%, 79.3% {
-      -webkit-transform: translate3d(0, -50%, 0);
-              transform: translate3d(0, -50%, 0);
-    }
-    83.3%, 95.96% {
-      -webkit-transform: translate3d(0, -25%, 0);
-              transform: translate3d(0, -25%, 0);
-    }
-  }
-  
-  @keyframes opacity {
-    0%, 100% {
-      opacity: 0;
-    }
-    50% {
-      opacity: 1;
-    }
-  }
-  
-  @keyframes change {
-    0%, 12.66%, 100% {
-      -webkit-transform: translate3d(0, 0, 0);
-              transform: translate3d(0, 0, 0);
-    }
-    16.66%, 29.32% {
-      -webkit-transform: translate3d(0, -25%, 0);
-              transform: translate3d(0, -25%, 0);
-    }
-    33.32%, 45.98% {
-      -webkit-transform: translate3d(0, -50%, 0);
-              transform: translate3d(0, -50%, 0);
-    }
-    49.98%, 62.64% {
-      -webkit-transform: translate3d(0, -75%, 0);
-              transform: translate3d(0, -75%, 0);
-    }
-    66.64%, 79.3% {
-      -webkit-transform: translate3d(0, -50%, 0);
-              transform: translate3d(0, -50%, 0);
-    }
-    83.3%, 95.96% {
-      -webkit-transform: translate3d(0, -25%, 0);
-              transform: translate3d(0, -25%, 0);
-    }
-  }
-
-
 /* skills */
 
 .skills{
@@ -389,7 +233,6 @@ header {
     .section-para-title{
     font-size: 1.2rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 500;
     color: var(--fc-light);
     padding: 1rem 0;
     display: block;
@@ -510,57 +353,7 @@ footer{
 }
 
 
-
-@media screen and (min-width: 900px) {
-  .navigation {
-    padding: 1rem 0;
-  }
-}
-
-@media screen and (min-width: 500px){
-    .photo{
-        width: 50%;
-    }
-
-}
-
-@media screen and (min-width: 600px){
-
-    .intro-body{
-        margin-bottom: 3rem;
-        font-size: var(--h3);
-        font-weight: 300;
-        line-height: 2;
-    }
-    .photo{
-        width: 35%;
-    }
-    .intro-title{
-        margin-top: 3rem;
-        font-size: var(--h2);
-    }
-
-}
 @media screen and (min-width: 740px) {
-
-    .intro-body{
-        margin-bottom: 3rem;
-        font-size: var(--h3);
-        font-weight: 300;
-        line-height: 2;
-    }
-    .photo{
-        width: 30%;
-    }
-    .intro-title{
-        margin-top: 3rem;
-        font-size: var(--h1);
-    }
-
-  .navigation {
-    padding: 1rem 0.5rem;
-  }
-
   .menu-btn {
     display: none;
   }
@@ -583,8 +376,13 @@ footer{
     text-decoration: none;
     display: inline-block;
     font-size: var(--fs-nav);
-    font-weight: 600;
     line-height: 2.5;
     color: var(--fc-light);
+  }
+}
+
+@media screen and (max-width: 740px){
+  .nav-list{
+    background-color: var(--main-dark);
   }
 }
