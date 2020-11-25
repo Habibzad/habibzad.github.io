@@ -58,7 +58,7 @@ header {
   font-family: var(--logo-font), cursive;
   color: var(--accent);
   font-weight: 900;
-  font-size: var(--h1);
+  font-size: var(--h4);
 }
 
 .menu-btn {
@@ -171,20 +171,36 @@ header {
 /* landing section */
 
 .landing {
-  background-image: url('/images/bg.jpg');
+  background-image: url('/images/dark.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   height: 100vh;
-  padding-top: 6rem;
   display: flex;
   justify-content: center;
+  position: relative;
+}
+
+.landing:before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background-color: var(--accent);
+  clip-path: polygon(
+    0 100%, 100% 100%, 100% 30%)
 }
 
 .landing-container {
-  padding: 0.5rem;
+  width: 100%;
+  height: 100%;
+  padding-top: 6rem;
   display: flex;
   flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
 }
 
 .intro-title{
