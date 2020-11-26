@@ -58,7 +58,7 @@ header {
   font-family: var(--logo-font), cursive;
   color: var(--accent);
   font-weight: 900;
-  font-size: var(--h4);
+  font-size: var(--h2);
 }
 
 .menu-btn {
@@ -76,7 +76,7 @@ header {
 }
 
 .menu-btn-line {
-  width: 35px;
+  width: 30px;
   height: 3px;
   display: block;
   background-color: var(--accent);
@@ -265,7 +265,7 @@ header {
     justify-content: center;
     align-items: center;
     height: auto;
-    padding: 2rem ;
+    /* padding: 2rem ; */
     }
     
     .skills-container{
