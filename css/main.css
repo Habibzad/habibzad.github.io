@@ -296,14 +296,12 @@ header {
     }
     
     .skills-body{
-      font-size: 1.4rem;
       line-height: 1.8;
       margin: 2rem 0;
     }
     .skill{
       width: 100px;
       height: 140px;
-      /* display: inline-block; */
       margin: 0.5em;
     }
     
@@ -329,7 +327,6 @@ header {
       width: 100%;
       padding-top: 1.6em;
       text-align: center;
-      font-size: 1.2rem;
     }
     
     .fa-html5,
@@ -348,7 +345,113 @@ header {
 
 /* projects */
 
+/* contact form */
+.contact-form{
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
 
+.contact-form:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background-color:var(--accent);
+  clip-path: polygon(
+    0 0, 50% 30%, 100% 0)
+}
+
+.form-div {
+	background: #fff;
+	padding: 30% 0 10% 0;
+	max-width: 450px;
+}
+
+.sec-title{
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+#contct{
+  padding-bottom: 10%;
+  text-align: center;
+}
+.feedback-input {
+	color:var(--main-dark);
+	font-family: Montserrat, Arial, sans-serif;
+  font-weight:300;
+	font-size: 14px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fff;
+	padding: 13px 13px 13px 13px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  border: 0px solid transparent;
+  border-bottom: 1px solid var(--main-dark);
+}
+
+.feedback-input:focus{
+	background: #fff;
+	box-shadow: 0;
+	color: var(--main-dark);
+	outline: none;
+  padding: 13px 13px 13px 13px;
+}
+
+.focused{
+	color:var(--main-dark);
+	border:var(--accent) solid 2px;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color:white;
+}
+
+.submit-btn{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	/* float:left; */
+	width: 100%;
+	border: 0px solid transparent;
+	cursor:pointer;
+	background-color: var(--main-dark);
+	color:white;
+	font-size:1rem;
+	padding: 0.5rem 0;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:300;
+}
+
+
+.submit-btn:hover {
+  background-color: var(--accent);
+	color: var(--main-dark);
+}
+
+@media only screen and (max-width: 580px) {
+	.form-div{
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+}
 /* footer */
 
 footer{
@@ -388,9 +491,10 @@ footer .footer{
 }
 
 .social-link:hover {
-  border: 1px solid var(--main-light);
-  background-color: var(--main-light);
+  border: 1px solid var(--accent);
+  background-color: var(--accent);
   color: var(--main-dark);
+  transition: 0.2s ease-in;
 }
 
 .copy{
