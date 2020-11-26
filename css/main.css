@@ -188,9 +188,9 @@ header {
   left: 0;
   width: 100%;
   height: 200px;
-  background-color: var(--accent);
+  background-color: #d4d4d3;
   clip-path: polygon(
-    0 100%, 100% 100%, 100% 30%)
+    0 100%, 100% 100%, 100% 50%)
 }
 
 .landing-container {
@@ -206,27 +206,57 @@ header {
 .intro-title{
     font-size: var(--h1);
     color: var(--main-light);
-    margin: 1.5rem 0;
+    margin: 2rem 0;
     font-weight: 100;
 
 }
 
 .intro-body{
-  font-weight: 100;
-
+    font-weight: 100;
     color: var(--main-light);
-    font-size: var(--h4);
+    font-size: var(--h3);
     line-height: 2;
     margin: 1.5rem 0;
 }
-.name{
-  display: block;
-  line-height: 2;
+
+.my-title{
+  font-weight: 300;
+}
+.contact-btn{
+  margin-top: 2rem;
+  display: inline-block;
+  color: var(--accent);
 }
 
-.web-dev{
-  font-weight: 400;
+.contact-btn a{
+  color: var(--accent);
+  padding: 0.5rem;
+  border: 2px solid var(--accent);
 }
+
+
+/* about */
+
+.about{
+  padding: 2rem 0;
+  background-color: #d4d4d3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-container{
+  max-width: 700px;
+  padding: 1rem;
+
+}
+
+.about-txt{
+  line-height: 1.5;
+  padding-top: 1rem;
+}
+
+
 /* skills */
 
 .skills{
@@ -235,7 +265,7 @@ header {
     justify-content: center;
     align-items: center;
     height: auto;
-    padding: 2rem 0.5rem;
+    padding: 2rem ;
     }
     
     .skills-container{
@@ -243,21 +273,17 @@ header {
       justify-content: space-between;
       align-items: center;
       flex-direction: column;
-      max-width: 800px;
+      max-width: 700px;
+      padding: 1rem;
     }
-    
-    .section-para-title{
-    font-size: 1.2rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: var(--fc-light);
-    padding: 1rem 0;
-    display: block;
-    align-self: start;
+
+    .skills-container h2{
+      align-self: flex-start;
     }
     
     .skills-title,
     .projects-title{
-      font-size: 1.6rem;
+      font-size: 1.4rem;
       padding: 2rem 0 0 0;
     }
     .skills-list{
@@ -275,7 +301,7 @@ header {
       margin: 2rem 0;
     }
     .skill{
-      width: 120px;
+      width: 100px;
       height: 140px;
       /* display: inline-block; */
       margin: 0.5em;
@@ -334,6 +360,11 @@ footer{
     padding: 4rem 0 1rem 0;
 }
 
+footer .footer{
+  padding-bottom: 3rem;
+  color: #fff;
+}
+
 .social-media-list {
   list-style: none;
   display: flex;
@@ -345,10 +376,10 @@ footer{
 }
 
 .social-link {
-  border: 2px solid white;
+  border: 1px solid #e9e8e8;
   border-radius: 50%;
   color: var(--main-light);
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding: 0.4rem 0.55rem;
   margin: 0.3rem;
 }
@@ -357,7 +388,7 @@ footer{
 }
 
 .social-link:hover {
-  border: 2px solid var(--main-light);
+  border: 1px solid var(--main-light);
   background-color: var(--main-light);
   color: var(--main-dark);
 }
