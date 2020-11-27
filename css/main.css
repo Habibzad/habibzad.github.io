@@ -389,7 +389,7 @@ header {
 .card img:hover {
   transform: scale(1.1);
   opacity: 0.5;
-  transition: 500ms ease;
+  transition: 500ms ease-in-out;
 }
 
 .card-image img {
