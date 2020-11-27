@@ -211,7 +211,7 @@ header {
 .intro-body {
   font-weight: 100;
   color: var(--main-light);
-  font-size: var(--h3);
+  font-size: var(--h4);
   line-height: 2;
   margin: 1.5rem 0;
 }
@@ -520,6 +520,10 @@ textarea:focus {
     margin-left: 0;
     padding-left: 3%;
     padding-right: 3%;
+  }
+
+  .intro-title {
+    font-size:2rem;
   }
 }
 /* footer */
