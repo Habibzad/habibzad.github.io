@@ -5,7 +5,7 @@
 
   --main-light: #ececec;
   --main-dark: #06060c;
-  --accent: #f2d974;
+  --accent: #9ddfd3;
 
   --h1: 2.5rem;
   --h2: 2rem;
@@ -188,7 +188,6 @@ header {
   height: 200px;
   background-color: #d4d4d3;
   clip-path: polygon(0 100%, 100% 100%, 50% 70%);
-  /* 0 0, 50% 30%, 100% 0 */
 }
 
 .landing-container {
@@ -350,7 +349,7 @@ header {
 /* projects */
 
 .projects {
-  background-color: var(--accent);
+  background-color: #f2d974;
   position: relative;
 }
 
@@ -414,7 +413,7 @@ header {
   transition: 200ms ease-in-out;
 }
 
-/*                                           contact form                         */
+/*   contact form    */
 
 .contact-form {
   position: relative;
@@ -495,7 +494,6 @@ textarea:focus {
 
 .submit-btn {
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
-  /* float:left; */
   width: 100%;
   border: 0px solid transparent;
   cursor: pointer;
@@ -607,6 +605,6 @@ footer .footer {
 
 @media screen and (max-width: 740px) {
   .nav-list {
-    background-color: var(--main-dark);
+    background-color: #1b434b;
   }
 }
