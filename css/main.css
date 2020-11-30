@@ -4,7 +4,7 @@
   --logo-font: "Big Shoulders Stencil Text", cursive;
 
   --main-light: #ececec;
-  --main-dark: #06060c;
+  --main-dark: #1E384C;
   --accent: #9ddfd3;
 
   --h1: 2.5rem;
@@ -170,6 +170,7 @@ header {
 
 .landing {
   background-image: url("/images/dark.jpg");
+  background-color: #1E384C;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -177,6 +178,7 @@ header {
   display: flex;
   justify-content: center;
   position: relative;
+  padding-bottom: 15%;
 }
 
 .landing:before {
@@ -186,7 +188,7 @@ header {
   left: 0;
   width: 100%;
   height: 200px;
-  background-color: #d4d4d3;
+  background-color: var(--accent);
   clip-path: polygon(0 100%, 100% 100%, 50% 70%);
 }
 
@@ -196,7 +198,6 @@ header {
   padding-top: 6rem;
   display: flex;
   flex-direction: column;
-  background-color: rgba(0, 0, 0, 0.7);
   text-align: center;
 }
 
@@ -233,7 +234,7 @@ header {
 /* about */
 
 .about {
-  background-color: #d4d4d3;
+  background-color: var(--accent);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -268,7 +269,7 @@ header {
   left: 0;
   width: 100%;
   height: 200px;
-  background-color: #d4d4d3;
+  background-color: var(--accent);
   clip-path: polygon(0 0, 50% 30%, 100% 0)
 }
 
@@ -515,6 +516,11 @@ textarea:focus {
 }
 
 @media only screen and (max-width: 580px) {
+  .landing {
+    background-image: none;
+    background-color: #1E384C;
+  }
+
   .form-div {
     margin-left: 0;
     padding-left: 3%;
@@ -606,6 +612,7 @@ footer .footer {
 
 @media screen and (max-width: 740px) {
   .nav-list {
-    background-color: #1b434b;
+    height: 100vh;
+    background-color: var(--main-dark);
   }
 }
