@@ -253,7 +253,7 @@ header {
 /* skills */
 
 .skills {
-  background-color: #525560;
+  background-color: var(--main-dark);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -387,6 +387,10 @@ header {
   margin: 0.5rem;
 }
 
+.card:hover {
+  background-color: rgb(214, 214, 214);
+}
+
 .card .card-image {
   overflow: hidden;
 }
@@ -404,6 +408,7 @@ header {
   font-size: 1rem;
   margin: 1rem 0;
 }
+
 .project-btn {
   text-decoration: none;
   padding: 0.2rem 1rem ;
