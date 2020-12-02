@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@800&family=Montserrat:wght@300&display=swap");
 :root {
-  --body-font: "Montserrat", sans-serif;
+  --body-font: sans-serif;
   --logo-font: "Big Shoulders Stencil Text", cursive;
 
   --main-light: #ececec;
@@ -228,7 +228,7 @@ header {
 .contact-btn a {
   color: var(--accent);
   padding: 0.5rem;
-  border: 2px solid var(--accent);
+  border: 1px solid var(--accent);
 }
 
 /* about */
@@ -401,7 +401,7 @@ header {
 }
 
 .project-name{
-  font-size: 1.3rem;
+  font-size: 1rem;
   margin: 1rem 0;
 }
 .project-btn {
@@ -445,7 +445,6 @@ header {
 }
 
 .sec-title {
-  font-weight: 400;
   font-size: 1.3rem;
 }
 #contct {
