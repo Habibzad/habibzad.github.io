@@ -343,7 +343,7 @@ header {
 /* projects */
 
 .projects {
-  background-color: #fffff1;
+  background-color: #dbdbdb;
   position: relative;
 }
 
@@ -432,7 +432,7 @@ header {
   left: 0;
   width: 100%;
   height: 200px;
-  background-color: #fffff1;
+  background-color: #dbdbdb;
   clip-path: polygon(0 0, 50% 30%, 100% 0);
 }
 
@@ -564,31 +564,11 @@ footer .footer {
   transition: 0.2s ease-in;
 }
 
-.social-link:visited {
-  color: #66fcf1;
-}
-
 .copy {
   color: var(--light-main);
   font-size: 0.8rem;
   margin-top: 3rem;
 }
-
-
-
-  .nav-item {
-    text-align: center;
-    min-width: 6rem;
-  }
-
-  .nav-link {
-    text-decoration: none;
-    display: inline-block;
-    font-size: var(--fs-nav);
-    line-height: 2.5;
-    color: var(--fc-light);
-  }
-
 
 @media screen and (min-width: 740px) {
   .nav-list {
