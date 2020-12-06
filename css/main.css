@@ -167,6 +167,10 @@ header {
 
 .landing {
   background-image: url("/images/dark.jpg");
+  -webkit-background-image: url("/images/dark.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-color: #1E384C;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -503,6 +507,9 @@ textarea:focus {
   padding: 0.5rem 0;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
   transition: all 0.3s;
   margin-top: -4px;
 }
@@ -524,6 +531,11 @@ textarea:focus {
   }
   .intro-body {
     font-size: 1.5rem;
+  }
+
+  .sec-title{
+
+    margin-top: 3rem;
   }
 }
 /* footer */
