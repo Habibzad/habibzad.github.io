@@ -166,7 +166,7 @@ header {
 /* landing section */
 
 .landing {
-  background-image: url("/images/dark.jpg");
+  background-image: url("/images/dark.webp");
   -webkit-background-image: url("/images/dark.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
