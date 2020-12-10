@@ -1,9 +1,11 @@
 # Habibzad Profile Webpage
+
 ## Table of contents
 * [About Me](#About-me)
 * [How to reach me](#technologies)
 
 ## 𝙰𝚋𝚘𝚞𝚝 𝙼𝚎
+
 Hi, I’m Ahmad! I am a front-end developer based in Rockville, Maryland.
 
 Coding and reading are my favorite ways of spending my time.
