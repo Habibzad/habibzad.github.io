@@ -23,5 +23,5 @@ I write standards-based code that is semantic, accessible, easy to maintain, and
 - MySQL
 - Javascript:ES6
 
-📈 I’m comfortable in [HTML, CSS, and Vanilla JavaScript];
-📫 How to reach me: <ahmadhabibzad@gmail.com>;
+###📈 I’m comfortable in [HTML, CSS, and Vanilla JavaScript];
+###📫 How to reach me: <ahmadhabibzad@gmail.com>;
