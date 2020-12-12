@@ -6,8 +6,6 @@ Coding and reading are my favorite ways of spending my time.
 
 I build static websites and small web applications, while I continue to learn and improve my skills every day.
 
-I write standards-based code that is semantic, accessible, easy to maintain, and cross browser compatible.
-
 <p><a href="https://habibzad.com/" target="_blank">➡️ Check out my website</a></p>
 
 #### 🧡 &nbsp;&nbsp;My passions
