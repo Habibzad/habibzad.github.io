@@ -228,6 +228,12 @@ header {
   border: 1px solid var(--accent);
 }
 
+.contact-btn a:hover {
+  background-color: var(--accent);
+  color: var(--dark-main);
+  border: 1px solid var(--accent);
+}
+
 /* about */
 
 .about {
@@ -255,7 +261,7 @@ header {
   justify-content: center;
   align-items: center;
   height: auto;
-  padding: 3rem 0;
+  padding: 6rem 0;
   position: relative;
 }
 
