@@ -1,5 +1,5 @@
 const menuBtn = document.querySelector(".menu-btn");
-let menuOpen = false;
+const menuOpen = false;
 menuBtn.addEventListener("click", ()=>{
     if(!menuOpen){
         menuBtn.classList.add("open");
@@ -28,7 +28,7 @@ navLink.forEach(link=>{
 // Text Animation
 
 document.addEventListener('DOMContentLoaded',function(event){
-    var dataText = [ "I like tea", "I like sunny days", "I like coding", "I like swimming"];
+    const dataText = [ "I like tea", "I like sunny days", "I like coding", "I like swimming"];
     function typeWriter(text, i, fnCallback) {
       if (i < (text.length)) {
        document.querySelector("#likes").innerHTML = text.substring(0, i+1) +'<span aria-hidden="true"></span>';
