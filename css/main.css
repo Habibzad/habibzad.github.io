@@ -504,13 +504,13 @@ textarea:focus {
 }
 
 .submit-btn {
-  width: 100%;
+  /* width: 100%; */
   border: 0px solid transparent;
   cursor: pointer;
   background-color: var(--dark-main);
   color: white;
   font-size: 1rem;
-  padding: 0.5rem 0;
+  padding: 10px 20px;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   appearance: none;
@@ -521,7 +521,7 @@ textarea:focus {
 }
 
 .submit-btn:hover {
-  background-color: #3a3a3a;
+  background-color: #3a3c4a;
 }
 
 @media only screen and (max-width: 580px) {
