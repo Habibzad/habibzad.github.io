@@ -166,12 +166,8 @@ header {
 /* landing section */
 
 .landing {
-  background-image: url("/images/dark.webp");
-  -webkit-background-image: url("/images/dark.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-color: #1E384C;
+ 
+  background-color: var(--dark-main);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -191,7 +187,18 @@ header {
   width: 100%;
   height: 200px;
   background-color: var(--accent);
-  clip-path: polygon(0 100%, 100% 100%, 110% 50%);
+  clip-path: polygon(0 100%, 100% 100%, 100% 50%);
+}
+
+.landing:after {
+  content: "";
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background-color: var(--accent);
+  clip-path: polygon(0 0, 100% 0, 0 50%);
 }
 
 .landing-container {
@@ -214,6 +221,10 @@ header {
   font-size: var(--h3);
   line-height: 2;
   margin: 1.5rem 0;
+}
+
+#likes{
+  font-size: 1.3rem;
 }
 
 .contact-btn {
@@ -539,8 +550,12 @@ textarea:focus {
   .intro-title{
     font-size: 2.5rem;
   }
-  .intro-body {
-    font-size: 1.5rem;
+
+  .intro-body{
+    font-size: 1.3rem;
+  }
+  #likes {
+    font-size: 1rem;
   }
 
   .sec-title{
