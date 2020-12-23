@@ -153,7 +153,7 @@ header {
   transition: linear 0.3s;
 }
 .nav-link:hover::after {
-  width: 100%;
+  width: 83%;
   transition: linear 0.3s;
 }
 
