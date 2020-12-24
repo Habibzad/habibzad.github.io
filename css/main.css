@@ -246,30 +246,6 @@ header {
   margin: 1rem 0 0 0;
 }
 
-a[link-twitter]{
-  position: relative;
-}
-
-a[link-twitter]::after{
-  content: attr(link-twitter);
-  position: absolute;
-  background-color: rgba(0,0,0,0.5);
-  padding: 0.3rem;
-  border-radius: 5px;
-  bottom: 0;
-  left: -20px;
-  transform: scale(0);
-  transition: 500ms;
-}
-
-a[link-twitter]:hover{
-  transform: scale(0.2);
-  color: white;
-}
-a[link-twitter]:hover::after{
-  transform: scale(1);
-  bottom: 100%;
-}
 /* about */
 
 .about {
@@ -468,7 +444,8 @@ a[link-twitter]:hover::after{
 }
 #contct {
   padding-bottom: 10%;
-  text-align: center;
+  /* text-align: center; */
+  padding-left: 1rem;
 }
 .feedback-input {
   color: var(--dark-main);
@@ -477,7 +454,7 @@ a[link-twitter]:hover::after{
   border-radius: 0;
   line-height: 22px;
   background-color: inherit;
-  padding: 13px 13px 13px 13px;
+  padding: 1rem;
   margin-bottom: 10px;
   width: 100%;
   -webkit-box-sizing: border-box;
