@@ -239,6 +239,37 @@ header {
   color: #cccccc;
 }
 
+.content .followMe{
+  text-transform: uppercase;
+  color: #cccccc;
+  font-size: 1rem;
+  margin: 1rem 0 0 0;
+}
+
+a[link-twitter]{
+  position: relative;
+}
+
+a[link-twitter]::after{
+  content: attr(link-twitter);
+  position: absolute;
+  background-color: rgba(0,0,0,0.5);
+  padding: 0.3rem;
+  border-radius: 5px;
+  bottom: 0;
+  left: -20px;
+  transform: scale(0);
+  transition: 500ms;
+}
+
+a[link-twitter]:hover{
+  transform: scale(0.2);
+  color: white;
+}
+a[link-twitter]:hover::after{
+  transform: scale(1);
+  bottom: 100%;
+}
 /* about */
 
 .about {
@@ -246,6 +277,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 3rem;
 }
 
 .about-container {
@@ -432,6 +464,7 @@ header {
 
 .sec-title {
   font-size: 1.3rem;
+  padding: 1rem 0;
 }
 #contct {
   padding-bottom: 10%;
