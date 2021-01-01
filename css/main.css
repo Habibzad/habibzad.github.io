@@ -257,7 +257,7 @@ header {
 }
 
 .about-container {
-  max-width: 700px;
+  max-width: 1020px;
   padding: 2rem 1rem;
 }
 
@@ -283,7 +283,7 @@ header {
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  max-width: 700px;
+  max-width: 1020px;
   padding: 1rem;
   color: #fff;
 }
@@ -310,7 +310,7 @@ header {
   margin: 2rem 0;
 }
 .skill {
-  width: 100px;
+  width: 130px;
   height: 140px;
   margin: 0.5em;
 }
@@ -342,6 +342,7 @@ header {
 .fa-html5,
 .fa-css3-alt,
 .fa-bootstrap,
+.fa-react,
 .fa-js-square,
 .fa-git-alt,
 .fa-github,
@@ -359,7 +360,7 @@ header {
 }
 
 .projects-title{
-  max-width: 700px;
+  max-width: 1020px;
   padding: 2rem 1rem;
   margin: auto;
 }
@@ -369,7 +370,7 @@ header {
 }
 
 .cards {
-  max-width: 700px;
+  max-width: 1020px;
   display: flex;
   padding: 1rem;
   margin: auto;
