@@ -4,7 +4,7 @@
   --body-font: 'Roboto', sans-serif;
   --light-main: #ffffff;
   --dark-primary: hsl(223, 21%, 17%);
-  --dark-secondary: hsl(223, 21%, 22%);
+  --dark-secondary: hsl(223, 21%, 19%);
   --accent: #02ffc8;
 
   --header1: 32px;
@@ -32,12 +32,16 @@ body {
   font-size: 20px;
 }
 
+hr {
+  border-radius: 50%;
+  margin: 2rem 0;
+}
+
 .wrapper {
-  max-width: 680px;
+  max-width: 800px;
   margin: auto;
   background-color: var(--dark-primary);
   box-shadow: 0 0 5px 1px rgba(2, 255, 200, 0.1);
-  height: 100vh;
 }
 
 .flex {
@@ -111,15 +115,10 @@ body {
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Header <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
-.navigation {
+.nav {
   padding: 1rem 0.5rem;
   position: relative;
 }
-
-.social-Icons {
-  padding: 1rem 0.5rem;
-}
-
 
 .nav-link {
   padding: 0 14px;
@@ -129,8 +128,13 @@ body {
   position: relative;
 }
 
-.lc {
+.nav-link_last {
   border-right: none
+}
+
+
+.social-Icons {
+  padding: 1rem 0.5rem;
 }
 
 .social-link {
@@ -143,7 +147,7 @@ body {
 }
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Main Content <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
-.main {
+.home {
   margin-top: 15%;
   background: var(--dark-primary);
   display: flex;
@@ -180,19 +184,19 @@ body {
 
 @-webkit-keyframes float {
   0% {
-    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 5px 15px 0px rgba(2, 255, 200, 0.3);
     -webkit-transform: translatey(0px);
     transform: translatey(0px);
   }
 
   50% {
-    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 25px 15px 0px rgba(2, 255, 200, 0.1);
     -webkit-transform: translatey(-20px);
     transform: translatey(-20px);
   }
 
   100% {
-    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 5px 15px 0px rgba(2, 255, 200, 0.3);
     -webkit-transform: translatey(0px);
     transform: translatey(0px);
   }
@@ -218,9 +222,9 @@ body {
   }
 }
 
-/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>   Title <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>   Home   <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
-.main-header {
+.main-title {
   margin: 2rem 0 1rem;
   text-transform: uppercase;
   font-family: 'Patrick Hand SC', cursive;
@@ -238,10 +242,6 @@ body {
   letter-spacing: 1px;
 }
 
-hr {
-  border-radius: 50%;
-}
-
 .about-txt {
   margin: 1rem 0;
   line-height: 2rem;
@@ -256,7 +256,7 @@ hr {
 
 .contact-btn {
   padding: 0.5rem 1rem;
-  border: 2px solid var(--accent);
+  border: 1px solid var(--accent);
   color: var(--accent);
   font-size: 1rem;
   border-radius: 2px;
@@ -270,6 +270,58 @@ hr {
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>    Skills  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
+.section {
+  padding: 0.5rem;
+}
+
+.skills-para {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-transform: uppercase;
+  margin: 1rem 0;
+  color: #ebebeb;
+}
+
+.skill {
+  flex: 1;
+  text-align: center;
+  padding: 1rem;
+  margin: 2rem 0;
+}
+
+.fa-skills {
+  font-size: 3.5rem;
+  padding-top: 0.5rem;
+}
+
+.far-skills {
+  color: var(--accent);
+}
+
+.skills h3 {
+  font-size: 1.2rem;
+  line-height: 32px;
+  margin: 1rem 0 0;
+}
+
+.skills p {
+  line-height: 2rem;
+  font-size: 1rem;
+}
+
+.sub-title {
+  font-size: 1.2rem;
+}
+
+.tools-container {
+  margin: 1rem 0;
+}
+
+.tools-container p {
+  display: inline;
+  margin: 0.5rem;
+  /* border: 1px solid red; */
+}
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>    Small Screen   <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 
@@ -293,11 +345,11 @@ hr {
     border: none;
   }
 
-  .main-header {
+  .main-title {
     margin-top: 1rem;
   }
 
-  .main-header {
+  .main-title {
     font-size: 32px;
   }
 
@@ -325,6 +377,10 @@ hr {
 
   .main {
     margin-top: 15%;
+  }
+
+  hr {
+    margin: 1rem 0;
   }
 
 }
