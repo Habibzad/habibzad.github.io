@@ -33,7 +33,7 @@ body {
 }
 
 .wrapper {
-  max-width: 600px;
+  max-width: 680px;
   margin: auto;
   background-color: var(--dark-primary);
   box-shadow: 0 0 5px 1px rgba(2, 255, 200, 0.1);
@@ -144,9 +144,7 @@ body {
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Main Content <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 .main {
-  max-width: 600px;
-  margin: auto;
-  margin-top: 10%;
+  margin-top: 15%;
   background: var(--dark-primary);
   display: flex;
   flex-direction: column;
@@ -245,19 +243,29 @@ hr {
 }
 
 .about-txt {
-  margin-top: 1rem;
+  margin: 1rem 0;
   line-height: 2rem;
   font-weight: 300;
   padding: 0.5rem;
 }
 
+.cnt-btn {
+  text-decoration: none;
+  color: var(--dark-primary);
+}
+
 .contact-btn {
-  margin: 2rem 0;
   padding: 0.5rem 1rem;
-  background: var(--accent);
-  border: none;
+  border: 2px solid var(--accent);
+  color: var(--accent);
   font-size: 1rem;
   border-radius: 2px;
+  display: inline;
+}
+
+.contact-btn:hover {
+  background: hsl(167, 100%, 45%);
+  color: var(--dark-primary);
 }
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>    Skills  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
