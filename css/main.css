@@ -93,7 +93,7 @@ header{
 
 .social-Icons {
   padding: var(--padding);
-  z-index: 10023;
+  z-index: 99;
 }
 
 .social-link {
