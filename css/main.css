@@ -201,7 +201,6 @@ header{
 .intro-title {
   margin-bottom: 4em;
   font-family: 'Imbue', serif;
-  font-weight: 200;
   font-size: var(--fs-h2);
   letter-spacing: 1px;
 }
