@@ -1,10 +1,10 @@
 ## Hey, :wave:
 
-I’m Ahmad! I am a front-end developer based in Rockville, Maryland.
+I’m Ahmad! I am a front-end developer based in Maryland, United States.
 
 Coding and reading are my favorite ways of spending my time.
 
-I build static websites and small web applications, while I continue to learn and improve my skills every day.
+I build static websites and small scale web applications.
 
 <p><a href="https://habibzad.com/" target="_blank">➡️ Check out my website</a></p>
 
