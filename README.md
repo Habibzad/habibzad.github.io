@@ -1,6 +1,6 @@
 ## Hey, :wave:
 
-I’m Ahmad! I am a front-end developer based in Rockville, Maryland.
+I’m Ahmad! I am a front-end developer based in Maryland, United States.
 
 Coding and reading are my favorite ways of spending my time.
 
