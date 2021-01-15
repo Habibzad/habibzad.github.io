@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Imbue&family=Patrick+Hand+SC&family=Roboto:wght@300;400&display=swap');
+:root {
+    /* Font Family */
+  --ff-body: 'Roboto', sans-serif;
+  --ff-title: 'Patrick Hand SC', cursive;
+
+  /* Font Color */
+  --fc-light: #eeeeee;
+  --fc-dark: #4d4d4d;
+  --bg-light: #ffffff;
+  --bg-dark_primary: hsl(223, 21%, 17%);
+  --bg-dark_secondary: hsl(223, 21%, 19%);
+  --accent: #02ffc8;
+
+  /* Font Size */
+  --fs-h1: 2em;
+  --fs-h2: 1.75em;
+  --fs-h3: 1.5em;
+  --fs-h4: 1.2em;
+  --fs-body: 1.15em;
+  --fs-body_small: 1em;
+  --fs-small: 0.8125em;
+
+  --padding: 0.5em;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--ff-body);
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background: var(--bg-dark_primary);
+  color: var(--fc-light);
+  font-size: var(--fs-body);
+  position: relative;
+}
+
+hr {
+  border-radius: 50%;
+  margin: 2em auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5{
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+    color: var(--fc-light);
+}
+
+ul{
+    list-style: none;
+}
+
+main,
+footer {
+  max-width: 1000px;
+  margin: auto;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+}
+
+.section {
+    padding: var(--padding);
+  }
+
+.section-title{
+    text-align: center;
+    font-size: var(--fs-h4);
+    text-transform: uppercase;
+    margin: 1rem 0;
+    color: var(--accent);
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.sec-intro{
+    line-height: 1.5em;
+    font-weight: 300;
+    padding: 1em 0 0;
+}
+
+.sub-title{
+    padding: 0m;
+}
+
+.flex {
+  display: flex;
+}

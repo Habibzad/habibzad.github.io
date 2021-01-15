@@ -17,6 +17,7 @@
   <meta name="author" content="Ahmad Habibzad" />
   <meta name="description" content="Ahmad Habibzad is a freelance front-end developer based in Rockville, Maryland.">
   <meta name="keywords" content="Web developer, portfolio website, front-end developer" />
+  <link rel="stylesheet" href="css/global.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="shortcut icon" type="image/png" href="images/favIcon-2.png">
   <script src="https://kit.fontawesome.com/123aa91270.js" crossorigin="anonymous"></script>
@@ -26,13 +27,17 @@
 </head>
 
 <body>
-  <div class="wrapper">
-    <header class="header flex">
+  <header>
+    <div class="header flex">
+
       <!-- Menu Button -->
+
       <div class="menu-btn">
         <span class="menu-btn-line"></span>
       </div>
+
       <!-- Nav Links -->
+
       <nav class="nav">
         <ul id="nav-list" class="nav-list list flex">
           <li class="nav-item">
@@ -46,21 +51,21 @@
           </li>
         </ul>
       </nav>
+
+      <!-- Social Media Links -->
+
       <div class="social-Icons">
         <ul class="social-media-list list flex">
-
           <li class="social-media-list-item">
             <a class="social-link link" href="https://twitter.com/Masoud_Habibzad" target="_blank">
               <i class="fab fa-twitter"></i>
             </a>
           </li>
-
           <li class="social-media-list-item">
             <a class="social-link link" href="https://codepen.io/amhabibzad/" target="_blank">
               <i class="fab fa-codepen"></i>
             </a>
           </li>
-
           <li class="social-media-list-item">
             <a class="social-link link" href="https://github.com/Habibzad/" target="_blank">
               <i class="fab fa-github"></i>
@@ -68,76 +73,203 @@
           </li>
         </ul>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Home Main <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+  <!-- Home -->
 
-    <main>
-      <section class="home">
-        <div class="avatar">
-          <img src="images/profile1.jpg" alt="Habibzad-photo" />
+  <main class="main">
+    <section class="home">
+      <div class="avatar">
+        <img src="images/profile1.jpg" alt="Habibzad-photo" />
+      </div>
+      <div class="content">
+        <h1 class="main-title">Ahmad Habibzad</h1>
+        <h2 class="intro-title">Front End Developer</h2>
+        <hr>
+        <p class="body-txt">Hi, I’m Ahmad! I am a front-end developer based in Rockville, Maryland. Coding and
+          reading
+          are my favorite ways of spending my time. I build static websites and small scale web applications.</p>
+        <a class="cnt-btn" href="#">
+          <p class="contact-btn">Contact Me</p>
+        </a>
+      </div>
+    </section>
+    <hr>
+
+    <!-- Skills  -->
+
+    <section class="section skills flex">
+      <div class="skills-wrapper">
+        <h2 class="section-title">skills & tools</h2>
+        <p class="sec-intro">The tools and technologies I use to bring my projects to life:</p>
+        <div class="skill-container flex">
+          <div class="skill">
+            <i class="fab fa-html5 fa-skills"></i>
+            <h2>HTML</h2>
+            <p>I write clean, well formatted, semantic HTML5 making sure it is easy to read, trouble-shoot and
+              maintain.</p>
+          </div>
+          <div class="skill">
+            <i class="fab fa-css3-alt fa-skills"></i>
+            <h2>CSS</h2>
+            <p>Using CSS current best practices such as media queries and flex box, my focus is to build pixel perfect
+              and responsive websites.</p>
+          </div>
+          <div class="skill">
+            <i class="fab fa-js-square fa-skills"></i>
+            <h2>JavaScript</h2>
+            <p>In addition to using Javascript to make my website dynamic, I use JavaScript for creating small scale
+              web applications.</p>
+          </div>
         </div>
-        <div class="content">
-          <h2 class="main-title">Ahmad Habibzad</h2>
-          <h3 class="intro-title">Front End Developer</h3>
+        <div class="tools">
+          <h3 class="sub-title">Other Skills:</h3>
+          <div class="tools-container">
+            <i class="fab fa-bootstrap far-skills"></i>
+            <p>Bootstrap</p><br>
+            <i class="fab fa-git-alt far-skills"></i>
+            <p>Git</p><br>
+            <i class="fab fa-github-square far-skills"></i>
+            <p>GitHub</p><br>
+            <span class="iconify far-skills" data-icon="bi:terminal-fill" data-inline="false"></span>
+            <p>Terminal</p><br>
+            <span class="iconify far-skills" data-icon="simple-icons:adobexd" data-inline="false"></span>
+            <p>AdobeXD</p><br>
+            <span class="iconify far-skills" data-icon="bx:bxl-jquery" data-inline="false"></span>
+            <p>jQuery</p>
+          </div>
+        </div>
+        <h3 class="sub-title">What I currently do:</h3>
+        <p class="sec-intro">I am currently learning React and and improving my understanding of vanilla JavaScript.
+        </p>
+      </div>
+    </section>
+    <hr>
 
-          <hr>
-          <p class="about-txt">Hi, I’m Ahmad! I am a front-end developer based in Rockville, Maryland. Coding and
-            reading
-            are my favorite ways of spending my time. I build static websites and small scale web applications.</p>
-          <a class="cnt-btn" href="#">
-            <p class="contact-btn">Contact Me</p>
+    <!-- Projects  -->
+
+    <section class="section">
+      <h3 class="section-title">Projects</h3>
+      <div class="projects-container">
+        <div class=" project">
+          <div class="project-img_container">
+            <img class="project-img" src="images/project1.jpg" />
+          </div>
+          <div class="project-title">
+            <h3 class="project-description">Rock-Paper-Scissor</h3>
+            <p class="project-summary">A simple Rock-Paper-Scissor game
+            </p>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-img_container">
+            <img class="project-img" src="images/project2.jpg" />
+          </div>
+          <div class="project-title">
+            <h3 class="project-description">GPA Calculator</h3>
+            <p class="project-summary">Basic GPA Calculator</p>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-img_container">
+            <img class="project-img" src="images/project3.jpg" />
+          </div>
+          <div class="project-title">
+            <h3 class="project-description">Photo Slider</h3>
+            <p class="project-summary">Photo Slider</p>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-img_container">
+            <img class="project-img" src="images/project4.jpg" />
+          </div>
+          <div class="project-title">
+            <h3 class="project-description">Random quotes</h3>
+            <p class="project-summary">Random quotes</p>
+          </div>
+        </div>
+        <div class=" project">
+          <div class="project-img_container">
+            <img class="project-img" src="images/project5.jpg" />
+          </div>
+          <div class="project-title">
+            <h3 class="project-description">To-Do List</h3>
+            <p class="project-summary">A simple To-Do List
+            </p>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-img_container">
+            <img class="project-img" src="images/project6.jpg" />
+          </div>
+          <div class="project-title">
+            <h3 class="project-description">Weather App</h3>
+            <p class="project-summary">Weather App</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr>
+
+    <!--  Contact Form  -->
+
+    <section class="">
+      <h2 class="section-title">Contact Me</h2>
+      <div class="form-container">
+        <div class="form-div">
+          <form class="form" id="form1" action="https://formspree.io/f/xayldoed" method="POST">
+            <label class="name" for="name">
+              <input name="name" type="text" class="feedback-input" placeholder="Name" id="name" required>
+            </label>
+            <label class="email" for="email">
+              <input name="email" type="email" class="feedback-input" id="email" placeholder="Email" required />
+            </label>
+            <label class="text">
+              <textarea name="text" class="feedback-input" id="comment" placeholder="Message" required></textarea>
+            </label>
+            <input type="submit" value="Send Message" class="submit-btn" />
+          </form>
+        </div>
+      </div>
+    </section>
+    <hr>
+  </main>
+
+  <!-- Footer -->
+
+  <footer class="footer">
+    <div class="social-media">
+      <ul class="social-media-list">
+        <li class="social-media-list-item">
+          <a class="social-link" href="mailto:masoud.habibzad@gmail.com">
+            <i class="fas fa-envelope"></i>
           </a>
-        </div>
-      </section>
-      <hr>
-      <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Skills Section <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  -->
-      <section class="section skills flex">
-        <div class="skills-wrapper">
-          <h3 class="skills-para">skills & tools</h3>
-          <p>The tools and technologies I use to bring my projects to life:</p>
-          <div class="skill-container flex">
-            <div class="skill">
-              <i class="fab fa-html5 fa-skills"></i>
-              <h3>HTML</h3>
-              <p>I write clean, well formatted, semantic HTML5 making sure it is easy to read, trouble-shoot and
-                maintain.</p>
-            </div>
-            <div class="skill">
-              <i class="fab fa-css3-alt fa-skills"></i>
-              <h3>CSS</h3>
-              <p>Using CSS current best practices such as media queries and flex box, my focus is to build pixel perfect
-                and responsive websites.</p>
-            </div>
-            <div class="skill">
-              <i class="fab fa-js-square fa-skills"></i>
-              <h3>JavaScript</h3>
-              <p>In addition to using Javascript to make my website dynamic, I use JavaScript for creating small scale
-                web applications.</p>
-            </div>
-          </div>
-          <div class="tools">
-            <h4 class="sub-title">Other Skills:</h4>
-            <div class="tools-container">
-              <p><i class="fab fa-bootstrap far-skills"></i>Bootstrap</p>
-              <p><i class="fab fa-git-alt far-skills"></i>Git</p>
-              <p><i class="fab fa-github-square far-skills"></i>GitHub</p>
-              <p><span class="iconify far-skills" data-icon="bi:terminal-fill" data-inline="false"></span>Terminal</p>
-              <p><span class="iconify far-skills" data-icon="simple-icons:adobexd" data-inline="false"></span>AdobeXD
-              </p>
-              <p><span class="iconify far-skills" data-icon="bx:bxl-jquery" data-inline="false"></span>jQuery</p>
-            </div>
-          </div>
-          <h4 class="sub-title">What I currently do:</h4>
-          <p>I am currently learning React and and improving my understanding of vanilla JavaScript.</p>
-        </div>
-      </section>
-      <hr>
-    </main>
-
-    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Footer <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
-
-  </div>
+        </li>
+        <li class="social-media-list-item">
+          <a class="social-link" href="https://twitter.com/Masoud_Habibzad" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li class="social-media-list-item">
+          <a class="social-link" href="https://codepen.io/amhabibzad/" target="_blank">
+            <i class="fab fa-codepen"></i>
+          </a>
+        </li>
+        <li class="social-media-list-item">
+          <a class="social-link" href="https://www.linkedin.com/in/amhabibzad/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-media-list-item">
+          <a class="social-link" href="https://github.com/Habibzad" target="_blank" target="_blank">
+            <i class="fab fa-github-square"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <p class="copy">&copy 2021 Habibzad</p>
+  </footer>
   <script src="JavaScript/main.js"></script>
 </body>
 
