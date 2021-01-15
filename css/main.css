@@ -108,7 +108,6 @@ header{
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Main Content <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
 .home {
-  /* margin-top: 10%; */
   background: var(--bg-dark_primary);
   display: flex;
   flex-direction: column;
@@ -205,41 +204,7 @@ header{
   letter-spacing: 1px;
 }
 
-.body-txt {
-  margin: 1rem 0;
-  line-height: 2rem;
-  font-weight: 300;
-  padding: 0.5rem;
-}
-
-.cnt-btn {
-  text-decoration: none;
-  color: var(--bg-dark_primary);
-}
-
-.contact-btn {
-  padding: 0.5rem 1rem;
-  border: 1px solid var(--accent);
-  color: var(--accent);
-  font-size: var(--fs-body);
-  border-radius: 2px;
-  display: inline-block;
-}
-
-.contact-btn:hover {
-  background: hsl(167, 100%, 45%);
-  color: var(--bg-dark_primary);
-}
-
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>          Skills        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
-
-.parag .map_parag {
-  line-height: 1.2em;
-  -webkit-font-smoothing: antialiased;
-  font-size: 18px;
-  color: hsl(223, 21%, 80%);
-  margin-bottom: 24px;
-}
 
 .skill-container {
   justify-content: space-between;
@@ -256,13 +221,12 @@ header{
 }
 
 .skill p{
-  line-height: 1.5em;
-  font-weight: 300;
-  padding: 0.5rem;
+  font-size: var(--fs-body_small);
+  padding: 0.5em;
 }
 
 .fa-skills {
-  font-size: 5.5em;
+  font-size: 3.5em;
   padding-top: 0.5rem;
   color: var(--accent);
 }
@@ -282,11 +246,13 @@ header{
   font-size: 1.2rem;
 }
 
+.tools-container{
+  margin: 1rem 0;
+}
 
 .tools-container p {
+  font-size: var(--fs-body_small);
   display: inline;
-  margin: 0.5rem;
-  font-weight: 300;
 }
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>    Projects    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<, */
@@ -498,7 +464,7 @@ padding: 1rem;
   }
 
   .main-title {
-      font-size: var(--fs-h1);
+      font-size: var(--fs-h2);
   }
 
   .intro-title {
