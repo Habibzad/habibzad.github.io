@@ -492,9 +492,9 @@ padding: 1rem;
       font-weight: 300;
   }
 
-  /* .main {
-      margin-top: 15%;
-  } */
+  p{
+    font-size: var(--fs-body_small);
+  }
 
   hr {
       margin: 1rem 0;
