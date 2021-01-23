@@ -204,6 +204,15 @@ header{
   letter-spacing: 1px;
 }
 
+.cnt-btn{
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.cnt-btn:hover{
+  border-bottom: 2px solid var(--accent);
+}
+
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      Skills      <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
 .skill-container {
