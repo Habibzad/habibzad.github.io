@@ -78,7 +78,7 @@ header{
 
 .nav-link {
   padding: 0 var(--padding);
-  font-size: var(--fs-body);
+  font-size: var(--fs-body_small);
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 300;
@@ -108,7 +108,7 @@ header{
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Main Content <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
 .home {
-  background: var(--bg-dark_primary);
+  /* background: var(--bg-dark_primary); */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -119,6 +119,8 @@ header{
   -webkit-box-direction: normal;
   -webkit-box-pack: center;
   -webkit-box-align: center;
+  height: 85vh;
+  /* border: 1px solid yellow; */
 }
 
 .avatar {
@@ -184,7 +186,7 @@ header{
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>   Home   <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
 .main{
-  margin-top: 15%;
+  margin-top: 5%;
 }
 
 .main-title {
@@ -198,10 +200,16 @@ header{
 }
 
 .intro-title {
-  margin-bottom: 4em;
+  margin-bottom: 3em;
   font-family: 'Imbue', serif;
   font-size: var(--fs-h2);
   letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.body-txt{
+  line-height: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 .cnt-btn{
@@ -444,7 +452,7 @@ padding: 1rem;
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>    Responsive   <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 
-@media only screen and (max-width: 475px) {
+@media only screen and (max-width: 500px) {
   .nav-list {
       background-color: var(--bg-dark_primary);
       flex-direction: column;
@@ -480,15 +488,19 @@ padding: 1rem;
       font-size: var(--fs-h3);
   }
 
-  .intro-title,
-  .contact-btn {
-      margin-bottom: 1rem;
+  .intro-title {
+      margin-bottom: 1.5em;
   }
 
   .avatar {
       width: 120px;
       height: 120px;
       border: 2px solid #eeeeee;
+  }
+
+  .body-txt{
+    padding: 0.5em;
+    line-height: 2em;
   }
 
   .about-txt {
