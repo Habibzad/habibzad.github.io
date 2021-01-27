@@ -6,7 +6,7 @@ Coding and reading are my favorite ways of spending my time.
 
 I build static websites and small scale web applications.
 
-<p><a href="https://habibzad.com/" target="_blank">➡️ Check out my website</a></p>
+<p><a href="https://habibzad.dev/" target="_blank">➡️ Check out my website</a></p>
 
 #### 🧡 &nbsp;&nbsp;My passions
 
