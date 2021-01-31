@@ -17,9 +17,9 @@ I build static websites and small scale web applications.
 * Playing Chess
 
 :page_with_curl: I'm currently learning:
-- Java on [Udemy](https://www.udemy.com/course/decoding-ap-computer-science-a/); 
-- MySQL
+- Java on [Merit America](https://www.meritamerica.org/); 
 - Javascript:ES6
+- React
 
 📈 I’m comfortable in [HTML, CSS, and Vanilla JavaScript];
 
