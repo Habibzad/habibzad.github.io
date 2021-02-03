@@ -108,7 +108,6 @@ header{
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Main Content <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
 .home {
-  /* background: var(--bg-dark_primary); */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -120,7 +119,6 @@ header{
   -webkit-box-pack: center;
   -webkit-box-align: center;
   height: 85vh;
-  /* border: 1px solid yellow; */
 }
 
 .avatar {
@@ -141,7 +139,7 @@ header{
   height: auto;
 }
 
-/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> image animation <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>     image animation      <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 
 @-webkit-keyframes float {
   0% {
@@ -221,7 +219,7 @@ header{
   border-bottom: 2px solid var(--accent);
 }
 
-/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      Skills      <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>     Skills    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
 .skill-container {
   justify-content: space-between;
@@ -257,7 +255,6 @@ header{
   line-height: 2em;
   margin: 1em 0 0;
 }
-
 
 .sub-title {
   font-size: 1.2rem;
@@ -344,7 +341,6 @@ header{
 }
 
 .form-div {
-  /* padding: 1rem 0; */
   max-width: 1000px;
 }
 
@@ -418,7 +414,7 @@ textarea:focus {
   color: #000000;
 }
 
-/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>    Footer  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>    Footer   <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
 .footer {
 text-align: center;
@@ -450,7 +446,7 @@ padding: 1rem;
   margin-top: 1rem;
 }
 
-/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>    Responsive   <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>    Responsive     <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 
 @media only screen and (max-width: 500px) {
   .nav-list {

@@ -1,5 +1,8 @@
 const menuBtn = document.querySelector(".menu-btn");
+const navLink = document.querySelectorAll('.nav-link');
+let navList = document.querySelector(".nav-list");
 let menuOpen = false;
+
 menuBtn.addEventListener("click", () => {
     if (!menuOpen) {
         menuBtn.classList.add("open");
@@ -11,10 +14,6 @@ menuBtn.addEventListener("click", () => {
         menuOpen = false;
     }
 });
-
-
-const navLink = document.querySelectorAll('.nav-link');
-let navList = document.querySelector(".nav-list");
 
 navLink.forEach(link => {
     link.addEventListener("click", () => {
