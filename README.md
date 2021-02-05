@@ -18,8 +18,8 @@ I build static websites and small scale web applications.
 
 :page_with_curl: I'm currently learning:
 - Java on [Merit America](https://www.meritamerica.org/); 
-- Javascript:ES6
-- React
+- Javascript:ES6 on [FreeCodeCamp](https://www.freecodecamp.org/);
+- React on [Scrimba](https://scrimba.com/); 
 
 📈 I’m comfortable in [HTML, CSS, and Vanilla JavaScript];
 
