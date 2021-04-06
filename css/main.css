@@ -210,9 +210,12 @@ header{
   margin-bottom: 1.5em;
 }
 
+.cnt-btn, .merit{
+  color: var(--accent);
+}
+
 .cnt-btn{
   text-transform: uppercase;
-  color: var(--accent);
 }
 
 .cnt-btn:hover{
