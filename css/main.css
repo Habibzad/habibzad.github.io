@@ -218,7 +218,8 @@ header{
   text-transform: uppercase;
 }
 
-.cnt-btn:hover{
+.cnt-btn:hover,
+.merit:hover{
   border-bottom: 2px solid var(--accent);
 }
 
